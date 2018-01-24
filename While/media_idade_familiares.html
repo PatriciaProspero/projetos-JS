@@ -1,0 +1,17 @@
+<meta charset = "utf - 8">
+<script>
+
+	var totalFamiliares = prompt ("Quantos familiares são?");
+	var numero = 1;
+	var somaIdades = 0;
+
+	while(numero <= totalFamiliares){
+		var idade = parseInt(prompt("Qual é a idade?"));
+		somaIdades = somaIdades + idade;
+		numero ++;
+	}
+
+	var media = somaIdades/totalFamiliares;
+	alert ("A média é: " + media);
+
+</script>
