@@ -30,6 +30,17 @@
 
 	mostra(nome + " " + "o seu IMC é: " + imc_usuario);
 
+	if (imc_usuario < 18.5){
+		mostra ("Seu IMC indica que você está abaixo do peso!!");
+	}
+
+	if (imc_usuario > 35){
+		mostra("Seu IMC indica que você está acima do peso! Bora fazer uma dieta de ovo e frnago!!");
+	}
+
+	if (imc_usuario > 18.5 && imc_usuario < 35){
+		mostra ("OK! Seu IMC está entre os dois limites.");
+	}
 // Podemos utilizar o Math.round para arredondar o resultado do IMC caso preferir, pois normalmnete da quebrado.
 
 </script>
