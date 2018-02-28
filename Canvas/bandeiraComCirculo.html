@@ -1,0 +1,39 @@
+<canvas id="tela" width="1000" height="4800"></canvas>
+
+<script>
+	
+	var tela = document.getElementById("tela");
+	var c = tela.getContext("2d");
+
+	c.fillStyle ="#B22222";
+	c.fillRect(0,0,1000,200);
+
+	c.fillStyle = "#191970";
+	c.fillRect(0,200,1000,300);
+
+	c.fillStyle = "#B22222";
+	c.fillRect(0,500,1000,200);
+
+	c.fillStyle ="#ffffff";
+	c.beginPath();
+	c.arc(500,350,138,0,2*3.14);
+	c.fill();
+
+
+	c.fillStyle = "#D2691E";
+	c.fillRect(0,900,1000,300);
+
+	c.fillStyle = "#FAF0E6";
+	c.fillRect(0,1200,1000,300);
+
+	c.fillStyle = "#32CD32";
+	c.fillRect(0,1500,1000,300);
+
+	c.fillStyle = "#D2691E";
+	c.beginPath();
+	c.arc(500,1350,138,0,283.14);
+	c.fill();
+
+
+</script>
+
